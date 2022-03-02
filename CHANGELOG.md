@@ -2,8 +2,11 @@
 
 This changelog track changes to the qoqo_calculator project starting at version 0.6.0
 
-
 ## Not released
+
+## 0.6.2
+
+* Updated schemars dependency for downstream compatability
 
 ## 0.6.0
 

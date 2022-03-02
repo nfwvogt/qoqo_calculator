@@ -491,8 +491,8 @@ impl CalculatorComplex {
 
 #[cfg(test)]
 mod tests {
-    use super::CalculatorComplex;
-    use super::CalculatorFloat;
+    use qoqo_calculator::CalculatorComplex;
+    use qoqo_calculator::CalculatorFloat;
     use num_complex::Complex;
     #[cfg(feature = "json_schema")]
     use schemars::schema_for;

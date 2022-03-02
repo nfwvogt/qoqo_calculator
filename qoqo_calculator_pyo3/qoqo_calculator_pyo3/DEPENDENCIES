@@ -1481,7 +1481,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-libc 0.2.117
+libc 0.2.119
 https://github.com/rust-lang/libc
 by The Rust Project Developers
 Raw FFI bindings to platform libraries like libc.
@@ -5573,7 +5573,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-redox_syscall 0.2.10
+redox_syscall 0.2.11
 https://gitlab.redox-os.org/redox-os/syscall
 by Jeremy Soller <jackpot51@gmail.com>
 A Rust library to access raw Redox system calls
@@ -6569,7 +6569,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-serde_json 1.0.78
+serde_json 1.0.79
 https://github.com/serde-rs/json
 by Erick Tryzelaar <erick.tryzelaar@gmail.com>, David Tolnay <dtolnay@gmail.com>
 A JSON serialization file format
@@ -8249,7 +8249,7 @@ DEALINGS IN THE SOFTWARE.
 
 
 ====================================================
-unindent 0.1.7
+unindent 0.1.8
 https://github.com/dtolnay/indoc
 by David Tolnay <dtolnay@gmail.com>
 Remove a column of leading whitespace from a string
