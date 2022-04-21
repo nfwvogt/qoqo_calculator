@@ -10,7 +10,7 @@ jobs:
   test_pyproject_install:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3.0.2
     - uses: actions/setup-python@v2
       with:
         python-version: 3.9
@@ -29,7 +29,7 @@ jobs:
   clippy_check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -55,7 +55,7 @@ jobs:
             {py: '3.10', interpreter: "python3.10"}
         ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -86,7 +86,7 @@ jobs:
             {py: '3.10', interpreter: "python3.10"}
         ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -118,7 +118,7 @@ jobs:
             {py: '3.10', interpreter: "python3.10"}
         ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -151,7 +151,7 @@ jobs:
             {py: '3.9', interpreter: "python3.9"},
         ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -186,7 +186,7 @@ jobs:
             {py: '3.10', interpreter: "python3.10"}
         ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -218,7 +218,7 @@ jobs:
             {py: '3.10', interpreter: "python3.10"}
         ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -255,7 +255,7 @@ jobs:
             {py: '3.10', interpreter: "python3.10"}
         ]
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -279,7 +279,7 @@ jobs:
     name: unittests_check-${{ matrix.combinations.runs_on }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
           profile: minimal
@@ -292,7 +292,7 @@ jobs:
   code_coverage_rust:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v3.0.2
       - uses: actions-rs/toolchain@v1
         with:
             toolchain: nightly
